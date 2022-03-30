@@ -148,8 +148,13 @@ button.ce {
     grid-area: 4 / 1 / 6 / 2;
 }
 button.egal { 
-    grid-area: 6 / 2 / 7 / 4;
+    grid-area: 6 / 2 / 7 / 3;
 }
+
+button.dot{
+    grid-area: 6 / 3 / 7 / 4; 
+}
+
 button.back {
     grid-area: 6 / 1 / 7 / 2;
     border-bottom-left-radius: 10px;
