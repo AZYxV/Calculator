@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+
+/* MEDIA QUERY */
+
+/* H1 */
+
+h1{
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin: 5vh 0vw 0vh 0vw;
+}
+
+h1 span{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* BUTTON */
+
+.blue{
+    background-color: rgb(70, 184, 223);
+}
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+button.black:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+button.blue:hover{
+    background-color: rgb(118, 193, 218);
+}
+
+button.red:hover{
+    background-color: rgb(255, 83, 83);
+}
+
+button.orange:hover{
+    background-color: rgb(255, 189, 65);
+}
+
+button{
+    padding: 10%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+}  
+
+/* INPUT */
+
+input{ 
+    grid-area: 1 / 1 / 2 / 5;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    padding: 2%;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* GRID */
+
+div.calculatrice{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin: 2% 30%;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    -webkit-box-shadow: 12px 12px 24px #666666, -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #666666, -12px -12px 24px #ffffff;
+    background-color: #fff;
+    }
+
+button.plus { 
+    grid-area: 2 / 1 / 3 / 2; 
+}
+button.divise { 
+    grid-area: 2 / 2 / 3 / 3; 
+}
+button.multi { 
+    grid-area: 2 / 3 / 3 / 4; 
+}
+button.del { 
+    grid-area: 2 / 4 / 3 / 5;
+}
+button.moin { 
+    grid-area: 3 / 1 / 4 / 2; 
+}
+button.neuf { 
+    grid-area: 3 / 2 / 4 / 3; 
+}
+button.huit { 
+    grid-area: 3 / 3 / 4 / 4; 
+}
+button.sept { 
+    grid-area: 3 / 4 / 4 / 5; 
+}
+button.six { 
+    grid-area: 4 / 2 / 5 / 3; 
+}
+button.cinq { 
+    grid-area: 4 / 3 / 5 / 4; 
+}
+button.quatre { 
+    grid-area: 4 / 4 / 5 / 5; 
+}
+button.trois { 
+    grid-area: 5 / 2 / 6 / 3; 
+}
+button.deux { 
+    grid-area: 5 / 3 / 6 / 4; 
+}
+button.un { 
+    grid-area: 5 / 4 / 6 / 5; 
+}
+button.zero { 
+    grid-area: 6 / 4 / 7 / 5;
+    border-bottom-right-radius: 10px;
+}
+button.ce { 
+    grid-area: 4 / 1 / 6 / 2;
+}
+button.egal { 
+    grid-area: 6 / 2 / 7 / 4;
+}
+button.back {
+    grid-area: 6 / 1 / 7 / 2;
+    border-bottom-left-radius: 10px;
+}

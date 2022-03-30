@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <h1><span>Javascript calculator</span> by Nathan</h1>
+    <div class="calculatrice">
+        <input type="text" id="output">
+        <button class="plus blue" onclick="afficher('+')">+</button>
+        <button class="divise blue" onclick="afficher('/')">/</button>
+        <button class="multi blue" onclick="afficher('*')">x</button>
+        <button class="del red" onclick="effacer()">DEL</button>
+        <button class="moin blue" onclick="afficher('-')">-</button>
+        <button class="neuf black" onclick="afficher('9')">9</button>
+        <button class="huit black" onclick="afficher('8')">8</button>
+        <button class="sept black" onclick="afficher('7')">7</button>
+        <button class="six black" onclick="afficher('6')">6</button>
+        <button class="cinq black" onclick="afficher('5')">5</button>
+        <button class="quatre black" onclick="afficher('4')">4</button>
+        <button class="trois black" onclick="afficher('3')">3</button>
+        <button class="deux black" onclick="afficher('2')">2</button>
+        <button class="un black" onclick="afficher('1')">1</button>
+        <button class="zero black" onclick="afficher('0')">0</button>
+        <button class="ce red" onclick="erase()">CE</button>
+        <button class="egal blue" onclick="calculer()">=</button>
+        <button class="back orange" onclick="addToHistory()">♺</button>
+    </div>
+<script src="./js/calculatrice.js"></script>
+</body>
+</html>
