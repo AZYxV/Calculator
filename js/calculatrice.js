@@ -1,4 +1,5 @@
-function addToHistory(){
+function addToHistory()
+{
     document.getElementById('output').value = localStorage.getItem('calcul')
 }
 
