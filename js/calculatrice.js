@@ -1,8 +1,5 @@
-let history = '';
-
-
 function addToHistory(){
-    document.getElementById("output").value = history;
+    document.getElementById('output').value = localStorage.getItem('calcul')
 }
 
 function calculer()
@@ -11,7 +8,7 @@ function calculer()
     let b = eval(a);
 
     document.getElementById("output").value = b;
-    history = document.getElementById("output").value
+    localStorage.setItem('calcul', b);
 }
 
 function afficher(val)
